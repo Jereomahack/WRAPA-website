@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content%}
+<div class="wrapper">
+<header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone: +2348060637775</a></span><span class="email"><a href="#">Email: ondostatewrapa@yahoo.co.uk</a></span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-16 col-xs-12">
+                            <a href="#">
+                                <div class="main-logo">
+                                    <img src="{% static 'images/wrapa.png' %} " alt="">
+                                    <h2>Women's Right Advancement and <br> Protection Alternative (WRAPA)</h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            <div class="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="{% url 'Index' %}">Home</a></li>
+                                    <li><a href="{% url 'About' %}">About Us</a></li>
+                                   
+                                    <li><a href="{% url 'Rollback' %}">Rollback Malaria</a></li>
+                                    <li><a href="{% url 'Deworming' %}">Deworming </a></li>
+                                    {% comment %} <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li> {% endcomment %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+	<section class="letast_news">
+            <h2>BACKGROUND</h2>
+            <p>Women’s Rights Advancement and Protection Alternative (WRAPA) Nigeria, is a registered and Non-Governmental Organization (NGO), Non-Political and Non-Profit making charitable organization for advocacy and mobilization for the promotion, protection and realization of human rights and Legal rights, the elimination of all forms of repugnant practices as well as violence against Women, Children and Youths and the enhancement of their living standards. The acronym of WRAPA denotes the one or two-piece cloth worn by Nigerian women irrespective of age, tribe or religion, thereby underscoring the national coverage of the organization. 
+  
+            <br> 
+            
+            Women as a group in Nigeria, suffer a series of deprivation, discrimination and degrading practices in their private and public life. They are victims and survivors of different forms and expressions of injustices and are grossly underrepresented in decision-making structures. Their capacity to access and own primary resources are limited by unequal opportunities in education, employment and violence leading to poor self-esteem. Access to justice for women to redress violations of their fundamental human rights is hampered by poverty, ignorance, cultural/faith based inhibitions, cost and fear of bias or corruption in the administration of justice. Many women continue to suffer in silence. <br>
+            In 1999, and based on her professional background, the wife of the then Head of State, Hon. 
+            Justice Fati Lami. Abubakar established “Women’s Right Advancement and Protection Alternative” (WRAPA). The organization seeks to advance and protect the rights of women as provided by national laws and policies, regional and international treaties and agreements through an integrated approach that entrenches respect for the human dignity of the woman as her inclusion in decisions that affect women life and the development of their communities. 
+ </p>
+            {% comment %} <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_1.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">May 2019</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_2.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">30 May, 2017</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_3.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">30 May, 2017</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> {% endcomment %}
+        </section>
+        
+    </div>
+	
+{% endblock content%}

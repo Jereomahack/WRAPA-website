@@ -1,0 +1,244 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content%}
+<div class="wrapper">
+<header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone: +2348060637775</a></span><span class="email"><a href="#">Email: ondostatewrapa@yahoo.co.uk</a></span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-16 col-xs-12">
+                            <a href="{% url 'Index' %}">
+                                <div class="main-logo">
+                                    <img src="{% static 'images/wrapa.png' %} " alt="">
+                                    <h2>Women's Right Advancement and <br> Protection Alternative (WRAPA)</h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            <div class="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="{% url 'Index' %}">Home</a></li>
+                                    <li><a href="{% url 'About' %}">About Us</a></li>
+                                  
+                                    <li><a href="{% url 'Rollback' %}">Rollback Malaria</a></li>
+                                    <li><a href="{% url 'Deworming' %}">Deworming </a></li>
+                                    {% comment %} <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li> {% endcomment %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+	<section class="letast_news">
+            <h2>Recent Event</h2>
+            <p>These are recent medical exercise contracted to WRAPA by NNPC/Chveron Nigeria Limited</p>
+            <h2>Location: Owo, Ondo State</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0137.jpg' %}" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">May 2019</a></p>
+                                <h3>Location: Owo</h3>
+                                <h3>Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">The Ondo State Commissioner for Health, Dr Adegbenro Wahab addressing the community also seated is the Special Adviser to the wife of the Ondo State Governor and Mr Sam Daibo the Chevron Representative </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0150.jpg' %}" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">May 2019</a></p>
+                                <h3>Location: Owo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">Mr Sam Daibo of Chevron Nigeria Limited speaking at the flag off   </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0059.jpg' %}" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">May 2019</a></p>
+                                <h3>Location: Owo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test"> Below are photos of the community people seated for the flag off </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0234.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Owo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">Medical Personnel distributing Long Lasting Insecticide Nets (LLINs) at the Flag off</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    </div>
+                    <h2 class="center">Location: Ilaje LGA, Ondo State</h2>
+                <div class="container">
+                   <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1096.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ugbo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">The Ondo State Commissioner for Health, Dr Adegbenro Wahab addressing the community also seated are community leaders </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1092.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ugbo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">Military Medical Personnel demostrating on the installation of the Long Lastin Insecticide Nets (LLINs) at the Flag off</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                     <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1059.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ugbo <br> Programme: Flag off Rollback Malaria</h3>
+                                <p class="test">Medical Personnel and commi people present at the at the Rollback Malaria  Flag off</p>
+                                
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                     <div class="container">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0257.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ojumole community (Riverine)<br> Programme: Rollback Malaria exercise</h3>
+                                <p class="test">Testing, Treatment and distribution of Long Lasting Insecticide Nets (LLINs) by Medical Personnel from the Nigerian Navy</p>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0304.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ojumole community (Riverine) <br> Programme: Rollback Malaria</h3>
+                                <p class="test">Medical Personnel testing for malaria in a 3 year old child </p> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+                   <h2 class="center">Location: Warri, Delta State</h2>
+                    <p>Rollback Malaria is currently ongoing in Delta State </p>
+                     <div class="container">
+                   <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0373.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Tsekelewu <br> Programme: Rollback Malaria Flag off</h3>
+                                <p class="test">Doctor of Cottage hospital giving health talk on elimination of malaria at the flag off </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0343.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Tsekelewu <br> Programme: Rollback Malaria Flag Off</h3>
+                                <p class="test">Health Counselor speaking while the community Secretary interpreting in Ijaw</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0426.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Tsekelewu <br> Programme: Rollback Malaria Flag Off</h3>
+                                <p class="test">Doctor adminstering drug to a child tested positive for malaria</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_0173.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ogbe Ijoh<br> Programme: Rollback Malaria exercise</h3>
+                                <p class="test">The Rollback Malaria focal person for Warri South-West giving a Health talk on elimination of malaria</p>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1223.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ogbe Ijoh <br> Programme: Rollback Malaria</h3>
+                                <p class="test">Medical Personnel carrying out malaria testing </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_02572.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>May 2019</p>
+                                 <h3>Location: Ogbe Ijoh <br> Programme: Rollback Malaria </h3>
+                                <p class="test">Training of Medical Personnel and environmentalist</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        
+        
+    </div>
+	
+{% endblock content%}

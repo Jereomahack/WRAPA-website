@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content%}
+<div class="wrapper">
+<header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone: +2348060637775</a></span><span class="email"><a href="">Email: ondostatewrapa@yahoo.co.uk</a></span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-16 col-xs-12">
+                            <a href="{% url 'Index' %}">
+                                <div class="main-logo">
+                                    <img src="{% static 'images/wrapa.png' %} " alt="">
+                                    <h2>Women's Right Advancement and <br> Protection Alternative (WRAPA)</h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            <div class="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="{% url 'Index' %}">Home</a></li>
+                                    <li><a href="{% url 'About' %}">About Us</a></li>
+                                   
+                                    <li><a href="{% url 'Rollback' %}">Rollback Malaria</a></li>
+                                    <li><a href="{% url 'Deworming' %}">Deworming </a></li>
+                                    {% comment %} <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li> {% endcomment %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+	<section class="letast_news">
+            <h2>Recent Event</h2>
+            <p>These are recent medical exercise contracted to WRAPA by NNPC/Chveron Nigeria Limited </p>
+            <h2>Location: Bayelsa, Bayelsa State</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1782.jpg' %}" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">July 2019</a></p>
+                                <h3>Location: Bayelsa</h3>
+                                <h3>Programme: Mass Deworming Flag Off</h3>
+                                <p class="test">Mr Francis Kayode representing Chevron Nigeria Limited speaking at the flag off of the Mass Deworming of Primary School Children </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1787.jpg' %}" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">July 2019</a></p>
+                                <h3>Location: Bayelsa <br> Programme: Mass Deworming Flag Off</h3>
+                                <p class="test">Director PTE, Mnistry of Education Bayelsa speaking at the flag off</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1799.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>July 2019</p>
+                                 <h3>Location: Bayelsa <br> Programme: Mass Deworming Flag Off</h3>
+                                <p class="test">Mr Francis Kayode of Chevron Nigeria Limited administering deworming drug (ZEntel) to a Primary School child at the Flag off</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="{% static 'images/DSC_1804.jpg' %}" alt="">
+                            <div class="texts">
+                                <p>July 2019</p>
+                                 <h3>Location: Bayelsa <br> Programme: Mass Deworming Flag Off</h3>
+                                <p class="test">Mr Cyprien Alamere of CNL administering deworming drug (ZEntel) to a Primary School child at the Flag off</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                     </section>
+
+        
+        
+    </div>
+	
+{% endblock content%}

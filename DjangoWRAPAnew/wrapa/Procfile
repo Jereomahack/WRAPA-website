@@ -1,0 +1,1 @@
+web: gunicorn wrapa.wsgi --log-file -

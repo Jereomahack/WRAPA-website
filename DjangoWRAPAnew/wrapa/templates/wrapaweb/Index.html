@@ -1,0 +1,259 @@
+{% extends 'base.html' %}
+{% load static %} 
+{% block content%}
+<div class="wrapper">
+        <header class="header">
+            <section class="header-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="contact">
+                                <p><span class="phone"><a href="#">Phone: +2348060637775</a></span><span class="email"><a href="#">Email: ondostatewrapa@yahoo.co.uk</a></span></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-16 col-xs-12">
+                            <a href="{% url 'Index' %}">
+                                <div class="main-logo">
+                                    <img src="{% static 'images/wrapa.png' %} " alt="">
+                                    <h2>Women's Right Advancement and <br> Protection Alternative (WRAPA)</h2>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                            <div class="menu">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="{% url 'Index' %}">Home</a></li>
+                                    <li><a href="{% url 'About' %}">About Us</a></li>
+                                    
+                                    <li><a href="{% url 'Rollback' %}">Rollback Malaria</a></li>
+                                    <li><a href="{% url 'Deworming' %}">Deworming </a></li>
+                                    {% comment %} <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">CONTACT</a></li> {% endcomment %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+<div class="wrapper">
+       <section class="carosal-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="client owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="text">
+                                    <h3>WRAPA PROFILE</h3>
+                                    <p>Women’s Rights Advancement and Protection Alternative (WRAPA) Nigeria, is a registered and Non-Governmental Organization (NGO), Non-Political and Non-Profit making charitable organization for advocacy and mobilization for the promotion, protection and realization of human rights and Legal rights, the elimination of all forms of repugnant practices as well as violence against Women, Children and Youths and the enhancement of their living standards. The acronym of WRAPA denotes the one or two-piece cloth worn by Nigerian women irrespective of age, tribe or religion, thereby underscoring the national coverage of the organization.  </p>
+                                   
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>VISION</h3>
+                                    <p>“Women’s full enjoyment of human dignity, enhanced access to justice, redress for violation of women’s rights, access to medical, micro credit, education, sustainable development etc for them and their children especially the girl child. </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="text">
+                                    <h3>MISSION</h3>
+                                    <p>Actualizing the legal rights of women, in private and public sector through mobilization, sensitization, lobbying and provision of legal and other support services.  </p>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our_activity">
+            <h2>OUR ACTIVITY</h2>
+            <p>WRAPA has carried out various project ranging from HIV/AIDS, Diabetes and Hypertension sensitization, Mass Deworming of Primary School Children and Rollback Malaria in various communities in Nigerian especially in the Niger Delta Region. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">Rollback Malaria</i>
+                            </div>
+                            <h2><a href="#">Rollback Malaria</a></h2>
+                            <p>We just concluded testing, treatment and distribution of LLIN in the riverine communities in Delta and Ondo State which has been a huge success. We had the Commissoner for Health in both States in attendance, Representative of the Governor's wife, Community Leaders, Medical Personnel and communities memebrs. Medical Personnel and Environmental agents were also trained </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">Mass Deworming</i>
+                            </div>
+                            <h2><a href="#">Mass Deworming</a></h2>
+                            <p>for Over the years WRAPA has been trusted by Chevron to effectively carry out the mass deworming exercise of primary school children in various part of Nigeria whihc includes Lagos, Ondo, Delta, Bayelsa and Rivers State. Chevron has continually praised WRAPA for an efficient job done.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="single-Promo">
+                            <div class="promo-icon">
+                                <i class="material-icons">Diabetes/Hypertension</i>
+                            </div>
+                            <h2><a href="#">Diabetes/Hypertension Sensitization</a></h2>
+                            <p>The exercise has successfully been carried out by WRAPA over the years in various parts of Nigeria and NNPC/Chevron has applauded for a job well done through these years and has never has any reason to doubt WRAPA's capacity to carry out any project been given.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="donate_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 for-padding">
+                        <h4>AIM</h4>
+                        <h3>Success Rate</h3>
+                        <p>In other to achieve our vision WRAPA maintains a high level success rate in every project that has been carried out irrespective of the location and WRAPA has been applauded by Chevron Nigeria Limited for a job well done </p>
+                        <div class="progress-text">
+                            <p class="progress-top">98%</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+   
+        <section class="our_cuauses">
+            <h2>OBJECTIVES </h2>
+            <p>Outlined below are the objectives of WRAPA in the various not limited to </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="our_cuauses_single owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="img/our_cuauses_one.jpg" alt="">
+                                <div class="for_padding">
+                                    <h2>Prevention of Diseases</h2>
+                                    <p>-	Prevention of communicable diseases such as HIV/AIDS, Tuberculosis, Hepatitis A & B, 
+Measles.  
+</p>
+                                    <div class="progress-text">
+                                        <p class="progress-top">50%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                        </div>
+                                        <p class="progress-left">Set targert: <span>60000</span></p>
+                                        <p class="progress-right">Targert Acheived: <span>59800</span></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/our_cuauses_one.jpg" alt="">
+                                <div class="for_padding">
+                                    <h2>STRATEGIES </h2>
+                                    <p> 1.	By white-band campaign against communicable and non-communicable diseases in communities in Nigeria. 
+                                    <br> 2.	Testing for communicable & non-communicable diseases and referral to Government hospitals for appropriate treatment  
+                                    <br> 3.	Sustaining a structure of members and Volunteers to propagate the ideals of women’s human rights at the federal, State and Local Government levels with a mandate to network, and render services that touch the lives of women individually and collectively while respecting the sensitivities of every society.  
+
+                                        </p>
+                                    <div class="progress-text">
+                                        <p class="progress-top">50%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                        </div>
+                                        <p class="progress-left">Set targert: <span>60000</span></p>
+                                        <p class="progress-right">Targert Acheived: <span>59800</span></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/our_cuauses_two.jpg" alt="">
+                                <div class="for_padding">
+                                    <h2>OBJECTIVES</h2>
+                                    <p> Creation of Health awareness among women, children and communities of Niger Delta </p>
+                                 	<p> To promote and protect all human rights of women</p>
+                                    <p>	To design, implement and monitor effective policies and program that will foster the advancement of women.</p>
+                                    <p>	To support women in difficult circumstances including victims of gender violence
+
+</p>
+                                    <div class="progress-text">
+                                        <p class="progress-top">90%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                        </div>
+                                       
+                                    </div>
+                                    <h2 class="borderes"><a href="#">DONATE NOW</a></h2>
+                                </div>
+                            </div>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="clear"></div>
+       
+
+       
+        {% comment %} <section class="letast_news">
+            <h2>latest news</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_1.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">30 May, 2017</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_2.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">30 May, 2017</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single_news">
+                            <img src="img/news_images_3.jpg" alt="">
+                            <div class="texts">
+                                <p class="date"><a href="#">30 May, 2017</a></p>
+                                <h3>Wood Work Adds Value To <br> Your Property Five</h3>
+                                <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <h3><a href="#">READ MORE</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> {% endcomment %}
+        
+    </div>
+
+{% endblock content %} 
